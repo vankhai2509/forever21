@@ -8,13 +8,15 @@ import ProductList from './src/screens/ProductList'
 import YourBag from './src/screens/YourBag'
 
 export default function App() {
+  console.tron.log("cccccc")
+  
   return (
     <View>
      {/* <Login/> */}
      {/* <Profile/> */}
      {/* <Product/> */}
-     <ProductDetail/>
-     {/* <ProductList/> */}
+     {/* <ProductDetail/> */}
+     <ProductList/>
      {/* <YourBag/> */}
     </View>
   )
